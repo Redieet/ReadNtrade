@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body {
+  background-color: #f3f3f3; /* Light background */
+  font-family: 'Noto Sans Ethiopic', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #2E3B55;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+button {
+  background-color: #FFC107; /* Yellow Button */
+  color: black;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #FF9800;
+  transform: scale(1.05);
+}
+.MuiCardMedia-root {
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  object-fit: contain; /* Make sure the full image is visible */
+  background-color: white;
+}
+.MuiOutlinedInput-root {
+  border-radius: 25px !important;
+  transition: 0.3s ease-in-out;
+}
+
+.MuiOutlinedInput-root:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.MuiCard-root {
+  transition: 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.MuiCard-root:hover {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+@media (max-width: 600px) {
+  .MuiCard-root {
+      max-width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .MuiCard-root {
+      max-width: 100% !important;
+  }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

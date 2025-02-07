@@ -1,0 +1,11 @@
+Go to back-end directory
+run 
+	java -jar BookExchange-0.0.1-SNAPSHOT.jar
+
+Go to front-end directory
+run
+	npm install --force
+	npm start
+
+Open a browser
+Open localhost:3000
